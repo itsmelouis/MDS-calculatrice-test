@@ -16,4 +16,9 @@ describe('Calculator', () => {
     const calculator = new Calculator();
     expect(calculator.multiply(2, 3)).toBe(6);
   });
+
+  it('should divide two numbers', () => {
+    const calculator = new Calculator();
+    expect(calculator.divide(6, 3)).toBe(2);
+  });
 });
